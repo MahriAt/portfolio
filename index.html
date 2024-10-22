@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+       @import url('https://fonts.cdnfonts.com/css/body-grotesque-slim');
+       @import url('https://fonts.cdnfonts.com/css/noto-sans-nko-unjoined');
+       @import url('https://fonts.cdnfonts.com/css/libertinus-mono');
+	</style>
+                
+	<title>Portfolio</title>
+</head>
+<body>
+	<div class="phone_menu">
+		<hr>
+	</div>
+	<div class="name">
+		<h1 id="ma">Mahri<br>Atamammedova</h1>
+		<p class="she">(she/her)</p>
+		<p class="she">Sofware developer</p>
+		<img id="photo" src="images/2.png">
+		<h3>Contact me:</h3>
+		<a href="https://github.com/MahriAt" title="Github"><img src="images/github1.png"></a>
+		<a href="https://www.linkedin.com/in/mahriat/" title="linkedin"><img src="images/linkedin1.png"></a>
+		<a href="mailto:mahriatam11@gmail.com" title="Gmail"><img src="images/gmail1.png"></a>
+	</div>
+	<div class="about">
+		<h4>About me</h4>
+		<h3 id="quote">Code with Purpose, Learn with Passion</h3>
+		<p>I'm a passionate and dedicated software development student, constantly exploring new technologies and pushing my skills forward. While I’m still gaining professional experience, I've worked on several personal and academic projects that have allowed me to develop a strong foundation in programming, problem-solving, and collaboration. My current focus is on sharpening my skills in C, C++, and Python, and I'm excited to contribute to real-world projects that make a difference.</p>
+		<h4>Education</h4>
+		<div class = "edu">
+			<h4><b>Bachelor's Degree in Computer Engineering</b></h4>
+			<p>University of Karabuk</p>
+		</div>
+	</div>
+	<button><a id="allpro" href="https://github.com/MahriAt/projects">All projects</a></button>
+	<div class="projects">
+		<div id="c">
+			<img src="images/c1.png" >
+			<li><a href="https://github.com/MahriAt/projects/blob/main/C_projects/bank_managment.c">Bank managment</a></li>
+			<li><a href="https://github.com/MahriAt/projects/blob/main/C_projects/roman-to-decimal.c">Roman numbers to decimal</a></li>
+			<li><a href="https://github.com/MahriAt/projects/blob/main/C_projects/hospital_database.c">Hospital database</a></li>
+		</div>
+		<div id="cpp">
+			<img src="images/cpp1.png">
+			<li><a href="https://github.com/MahriAt/projects/blob/main/Cpp_projects/election_system.cpp">Election system</a></li>
+			<li><a href="https://github.com/MahriAt/projects/blob/main/Cpp_projects/contact_list.cpp">Contacts list</a></li>
+			<li><a href="https://github.com/MahriAt/projects/blob/main/Cpp_projects/calculator.cpp">Calculator</a></li>
+			<li><a href="https://github.com/MahriAt/projects/blob/main/Cpp_projects/rock-sizers-paper.cpp">Rock Scissors Paper game</a></li>
+		</div>
+		<div id="python">
+			<img src="images/py1.png">
+			<li><a href="https://github.com/MahriAt/projects/blob/main/Python_projects/email_slicer.py">Email slicer</a></li>
+			<li><a href="https://github.com/MahriAt/projects/blob/main/Python_projects/password_manager.py">Password manager</a></li>
+			<li><a href="https://github.com/MahriAt/projects/blob/main/Python_projects/quiz.py">Quiz</a></li>
+		</div>
+	</div>
+	<div class="contact-container">
+		<form action="process_form.php" method="POST" class="contact-left">
+			<div class="contact-left-title">
+				<h2>Contact me</h2>
+				<hr>
+			</div>
+			<label for="name">Name</label>
+			<input type="text" name="name" placeholder="Full name" class="contact-inputs" required>
+			<label for="email">Email</label>
+			<input type="text" name="email" placeholder="Email" class="contact-inputs" required>
+			<label for="message">Message</label>
+			<textarea name="message" placeholder="Your message" class="contact-inputs" required></textarea>
+			<button type="submit">Submit</button>
+		</form>
+		<div class="contact-right">
+			<img src="images/contact.png">
+		</div>
+	</div>
+
+</body>
+</html>
